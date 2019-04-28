@@ -1,0 +1,147 @@
+@import url(animacion.css);
+
+*{
+  margin: 0;
+  padding:0;
+
+}
+img{
+  box-shadow: 2px 2px 2px #02010a;
+}
+body{
+  font-family: "Dancing Script";
+  font-size: 16px;
+  background-color: #02010a;
+  color: #fff;
+}
+#contenido{
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+}
+.encabezado{
+  width: 100%;
+  background-color:#5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.encabezado h1{
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 2px 2px #02010a;
+  margin-top: 10px;
+  padding: 10px;
+
+}
+#menu{
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+#menu a{
+  margin-left: 10px;
+  color: #fff;
+  font-size: 1.5em;
+
+}
+#menu a:target{
+  text-decoration: none;
+}
+section{
+  display: flex;
+  flex-flow: column;
+}
+section, article{
+  width: 100%;
+  box-sizing: border-box;
+  float:  left;
+}
+#imagencentral{
+  background-color:  #82c3a6;
+  text-align: center;
+}
+
+#imagencentral img{
+  margin: 10px;
+  width: 90%;
+
+}
+#imagen_secundaria{
+  background-color:  #d5c75f;
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+}
+#imagen_secundaria img{
+  margin:10px 10px 5px;
+  width: 90%;
+  border: 1px solid black;
+}
+/*Pie de Pagina*/
+footer div{
+box-sizing: border-box;
+background-color:#C6d5c5;
+color:black;
+}
+.wrapper{
+  width: 100%;
+  padding: 10px;
+  display: block;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.wrapper div{
+  padding: 10px;
+  margin: 10px 20px;
+}
+
+.wrapper #contacto a{
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
+}
+.wrapper #redes a{
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
+}
+.wrapper #redes li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+/*Version para Desktop*/
+@media screen and (min-width: 900px){
+  #contenido{
+    max-width: 900px;
+    margin: 10px auto;
+  }
+
+  header{
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  header h1{
+    float: left;
+  }
+
+  #menu{
+    float: right;
+    padding: 0px;
+    margin: 20px 30px 20px;
+  }
+  #imagen_secundaria{
+    display: flex;
+    flex-flow: row;
+    padding: 10px;
+  }
+  .wrapper{
+    display: flex ;
+    flex-flow: row;
+  }
+  .wrapper div{
+    padding: 0px;
+    margin: 10px ;
+  }
+
+}

@@ -1,0 +1,12 @@
+#imagen1,#imagen2{
+  transition: transform, 1s;
+}
+#imagen1:hover{
+  transform: rotate(10deg);
+  box-shadow: 2px #82c3a6;
+  border: 2px solid #82c3a6;
+}
+#imagen2:hover{
+  transform: translate(20px, -5px);
+
+}
