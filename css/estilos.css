@@ -53,24 +53,39 @@ section{
 }
 section, article{
   width: 100%;
+  height: 100%;
   box-sizing: border-box;
   float:  left;
 }
 #imagencentral{
   background-color:  #82c3a6;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 #imagencentral img{
   margin: 10px;
-  width: 90%;
+  width: 95%;
 
 }
-#imagen_secundaria{
+#imagen_secundaria, #galeria{
   background-color:  #d5c75f;
   display: block;
   text-align: center;
   font-size: 1.5em;
+}
+#galeria article{
+  width: 100%;
+}
+.content_image{
+  width:100%;
+  box-sizing: border-box;
+  margin:10px;
+}
+.content_image img{
+  width: 90%;
+
 }
 #imagen_secundaria img{
   margin:10px 10px 5px;
@@ -135,6 +150,23 @@ color:black;
     flex-flow: row;
     padding: 10px;
   }
+  #galeria article{
+    display: flex;
+    flex-flow: row wrap;
+
+  }
+  .content_image {
+    width:27.7%;
+    margin: 20px auto;
+
+  }
+  .content_image img{
+    width: 100%;
+  }
+
+
+
+
   .wrapper{
     display: flex ;
     flex-flow: row;
