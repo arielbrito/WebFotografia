@@ -10,3 +10,12 @@
   transform: translate(20px, -5px);
 
 }
+.content_image #imagen-1{
+  filter: blur(10px);
+}
+#imagen-2, #imagen-4, #imagen-6{
+  filter:grayscale(100%);
+}
+#imagen-3{
+  filter:sepia(90%);
+}
