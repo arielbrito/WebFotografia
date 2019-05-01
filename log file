@@ -1,0 +1,30 @@
+[33mcommit 0bcaa3e2f8e86032204ff7a702f719b2ae4d389a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: ArielBrito <arielbrit@gmail.com>
+Date:   Tue Apr 30 20:45:34 2019 -0400
+
+    version 1.1
+
+[33mcommit 330713b30c8f223954e781d6ac3b3548dec956ee[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: ArielBrito <arielbrit@gmail.com>
+Date:   Sun Apr 28 14:29:50 2019 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit b8d745472fd69fd160f6fb4855af06e79629d4c0[m
+Merge: b46ec56 6a3a4bd
+Author: ArielBrito <arielbrit@gmail.com>
+Date:   Sat Apr 27 23:22:00 2019 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit b46ec560077afcedd34635d03077cabde0a2dd03[m
+Author: ArielBrito <arielbrit@gmail.com>
+Date:   Sat Apr 27 23:06:44 2019 -0400
+
+    Version 1.0
+
+[33mcommit 6a3a4bd2df099d8605754f73448ef39cf7d31a87[m
+Author: arielbrito <arielbrit@gmail.com>
+Date:   Sat Apr 27 23:00:34 2019 -0400
+
+    Initial commit
